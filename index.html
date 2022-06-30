@@ -7,8 +7,10 @@
     <body>
         <header>
             <h1>Gaming Universe</h1>
+            <p>
+            <script>document.write(userFavGame())</script>
+            </p>
             <div class="text-center">
-                <button onclick="myFunction()" class = "button">BUTTON</button>
                 <button onclick="confirm()" class = "confirm">Confirm</button>
             </div>
             <nav>
@@ -25,7 +27,10 @@
                 <img src="http://www.interactive.org/images/games/2020-mortal-kombat-11-350.jpg"alt="Pics" class="center">
             </section>
             <section>
-                <ul>
+                <ul id = "bottomText">
+                    <p>
+                    <script>document.write(numberOfGames())</script>
+                    </p>
                     <li>content</li>
                     <li>content</li>
                     <li>content</li>

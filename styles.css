@@ -1,13 +1,13 @@
 h1 {
     text-align:center;
-    color:white;
+    color:black;
 }
 title {
     color:white;
 }
 body {
     margin: 0;
-    background-color: black;
+    background-color: lightblue;
 }
 ul {
     border: 10px solid white;
@@ -18,7 +18,6 @@ ul {
 }
 .navbar {
     color: white;
-    color: lightblue;
     text-align:center;
 }
 .center {
@@ -37,4 +36,7 @@ ul {
 }
 .text-center {
     text-align: center;
+}
+.bottomText {
+     color: blue;
 }
