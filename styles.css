@@ -18,11 +18,11 @@ title {
 body {
     background: radial-gradient(navy 0, black 100%);
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
 }
 .space {
     background: rgba(128, 0, 128, 0.1) / 200px 200px round;
-    border : 1px dashed purple;
+    border : .001px dashed purple;
     bottom: 0px;
     left: 0;
     position: absolute;
