@@ -20,6 +20,12 @@ body {
     height: 100vh;
     overflow: scroll;
 }
+a {
+    position: relative;
+    z-index: 50;
+    display: flex;
+    width: 100%;
+}
 .space {
     background: rgba(128, 0, 128, 0.1) / 200px 200px round;
     border : .001px dashed purple;
